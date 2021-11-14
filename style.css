@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    width: 720px;
+    padding: 20px;
+}
+
+.main-container {
+    display: flex;
+    margin: 0 auto;
+    width: 720px;
+}
+
+.feed-card, .profile-pic {
+    border: black;
+    border-style: solid;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.profile-pic {
+    flex: 1;
+    margin-right: 20px;
+    height: 285px;
+    justify-items: center;
+    padding: 50px;
+}
+
+.profile-pic img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.profile-pic h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.feed-card {
+    flex: 2;
+}
+
+button {
+    height: 25px;
+    width: 55px;
+    background-color: coral;
+    box-shadow: 4px 4px 4px #fff;
+    font-size: 15px;
+}
+
+#title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.update {
+    padding: 10px;
+}
+
+.name-likes {
+    padding: 10px;
+    align-content: center;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
